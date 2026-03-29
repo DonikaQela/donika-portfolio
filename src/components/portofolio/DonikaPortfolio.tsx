@@ -23,7 +23,7 @@ export default function DonikaPortfolio() {
     location: "Mitrovicë, Kosovo",
     linkedin: "https://www.linkedin.com/in/donika-qela/",
     github: "https://github.com/DonikaQela",
-    cvLink: "#",
+    cvLink: "/cv.pdf",
   };
 
   const skills = [
@@ -227,6 +227,7 @@ export default function DonikaPortfolio() {
               </a>
               <a
                 href={personal.cvLink}
+                download
                 className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-medium text-white backdrop-blur transition hover:bg-white/10"
               >
                 Download CV
