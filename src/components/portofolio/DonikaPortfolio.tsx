@@ -21,7 +21,7 @@ export default function DonikaPortfolio() {
     email: "donikaqela1@gmail.com",
     phone: "+38349445179",
     location: "Mitrovicë, Kosovo",
-    linkedin: "https://www.linkedin.com/in/donika-qela/",
+    linkedin: "https://www.linkedin.com/in/donika-qela-0bb0ab1a4/",
     github: "https://github.com/DonikaQela",
     cvLink: "/cv.pdf",
   };
