@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
+// import { ExternalLink } from "lucide-react";
 import type { ProjectItem } from "../types";
 import type { ScrollRevealMotionProps } from "../usePortfolioMotion";
 
@@ -79,7 +79,8 @@ export function ProjectsSection({
               ))}
             </ul>
 
-            <div className="mt-6 flex flex-wrap gap-3">
+            {/* Pa URL reale (live/github = "#") — hiq koment kur ke linket */}
+            {/* <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href={project.live}
                 className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-slate-900/70 px-4 py-2 text-sm text-slate-200 transition duration-300 hover:-translate-y-0.5 hover:bg-slate-800"
@@ -92,7 +93,7 @@ export function ProjectsSection({
               >
                 <ExternalLink className="h-4 w-4" /> Source
               </a>
-            </div>
+            </div> */}
           </motion.article>
         ))}
       </div>
